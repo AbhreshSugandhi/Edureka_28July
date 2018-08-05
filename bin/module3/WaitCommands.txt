@@ -1,0 +1,40 @@
+//Synchronization Commands
+
+Errors which we need to handle are:
+	ElementNotVisibleException
+	NoSuchElementException
+ 	TimeOutError
+ 	element not available
+
+		//Sleep - to force the browser to wait for a specific time even though the element is available it will still wait tillthe given time
+		Thread.sleep(3000);
+		
+		//Implicit Wait - it will wait for the specified time before throwing error
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); 0-10
+		
+		//PageLoad - it will allow the page to load till the specified time before throwing error
+		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+  
+		//setScriptTimeout - wait for an asynchronous script to finish execution before throwing an error
+		driver.manage().timeouts().setScriptTimeout(10,TimeUnit.SECONDS);
+
+		//Explicit wait - the webDriver instance waits before locating webElements or performing actions on them
+		WebDriverWait wait = new WebDriverWait(driver, 15);
+		wait.until(ExpectedConditions.presenceOfElementLocated(ElementLocator));
+	
+			//elementToBeClickable() – The expected condition waits for an element to be clickable
+			wait.until(ExpectedConditions.elementToBeClickable(By.xpath(“//div[contains(text(),’COMPOSE’)]”)));
+	
+			//textToBePresentInElement() – The expected condition waits for an element having a certain string pattern.
+			wait.until(ExpectedConditions.textToBePresentInElement(By.xpath(“//div[@id= ‘forgotPass'”), “text to be found”));
+	
+			//alertIsPresent()- The expected condition waits for an alert box to appear.
+			wait.until(ExpectedConditions.alertIsPresent()) !=null);
+
+			//titleIs() – The expected condition waits for a page with a specific title.
+			wait.until(ExpectedConditions.titleIs(“gmail”));
+
+			//frameToBeAvailableAndSwitchToIt() – The expected condition waits for a frame to be available and then as soon as the frame is available, the control switches to it automatically.
+			wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(By.id(“newframe”)));
+			
+			
