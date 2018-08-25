@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ParameterExample]">
+  <test thread-count="5" name="ParameterTest1(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="module6.Parameterization">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="login_TestCase"/>
+        </methods>
+      </class> <!-- module6.Parameterization -->
+    </classes>
+  </test> <!-- ParameterTest1(failed) -->
+</suite> <!-- Failed suite [ParameterExample] -->
