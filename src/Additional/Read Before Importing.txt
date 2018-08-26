@@ -1,0 +1,5 @@
+Please copy this folder sperately and then import it for your view as it is a project alltogether hence need to be imported seperately.
+
+Changes if required!
+	Update Necessory jar file.
+	Change the driver path
