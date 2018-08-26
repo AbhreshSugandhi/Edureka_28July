@@ -37,5 +37,19 @@
 	<classpathentry kind="lib" path="D:/Training/Installation stuff/Jar Files/Selenium_3.4/xercesImpl-2.11.0.jar"/>
 	<classpathentry kind="lib" path="D:/Training/Installation stuff/Jar Files/Selenium_3.4/xml-apis-1.4.01.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/Training/Installation stuff/Jar Files/poi-3.17/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="D:/Training/Installation stuff/Jar Files/poi-3.17/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="D:/Training/Installation stuff/Jar Files/poi-3.17/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Training/Installation stuff/Jar Files/poi-3.17/curvesapi-1.04.jar"/>
+	<classpathentry kind="lib" path="D:/Training/Installation stuff/Jar Files/poi-3.17/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="D:/Training/Installation stuff/Jar Files/poi-3.17/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="D:/Training/Installation stuff/Jar Files/poi-3.17/poi-3.17.jar"/>
+	<classpathentry kind="lib" path="D:/Training/Installation stuff/Jar Files/poi-3.17/poi-examples-3.17.jar"/>
+	<classpathentry kind="lib" path="D:/Training/Installation stuff/Jar Files/poi-3.17/poi-excelant-3.17.jar"/>
+	<classpathentry kind="lib" path="D:/Training/Installation stuff/Jar Files/poi-3.17/poi-ooxml-3.17.jar"/>
+	<classpathentry kind="lib" path="D:/Training/Installation stuff/Jar Files/poi-3.17/poi-ooxml-schemas-3.17.jar"/>
+	<classpathentry kind="lib" path="D:/Training/Installation stuff/Jar Files/poi-3.17/poi-scratchpad-3.17.jar"/>
+	<classpathentry kind="lib" path="D:/Training/Installation stuff/Jar Files/poi-3.17/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="D:/Training/Installation stuff/Jar Files/jxl-2.6.12.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

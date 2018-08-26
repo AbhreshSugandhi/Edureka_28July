@@ -1,4 +1,4 @@
-package module10.KeywordDriven.Actions;
+package module10.Actions;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
